@@ -6,7 +6,7 @@ import itertools
 import tflite_runtime.interpreter as tflite
 
 # Caminho do modelo TFLite
-MODEL_PATH = "best_saved_model/best_float32.tflite"
+MODEL_PATH = "best_float32.tflite"
 
 # Inicializar o interpreter TFLite
 interpreter = tflite.Interpreter(model_path=MODEL_PATH)
